@@ -80,5 +80,3 @@ void loop() {
 * Home automation and IoT projects
 
 ---
-
-```
