@@ -1,59 +1,62 @@
-# Embedded-Systems-Projects
+# 🔌 Arduino & Embedded Systems Projects
 
-This repository contains my embedded systems projects using **Arduino, Embedded C**, and various sensors & modules.  
-It demonstrates hands-on implementation of **I2C & UART communication, motor control, sensor integration, and robotics**.
-
----
-
-## **📂 Projects Overview**
-
-### **Arduino Projects**
-1. **Line Follower Robot**  
-   - Components: Arduino Uno, L298N Motor Driver, IR Sensors, 4 DC Motors  
-   - Description: Robot follows a black line on the floor using IR sensor input.  
-   - Code: `Arduino/Line_Follower_Robot/Code/line_follower.ino`
-
-2. **Bluetooth Controlled Robot**  
-   - Components: Arduino Uno, L298N Motor Driver, HC-05 Bluetooth Module, 2 DC Motors  
-   - Description: Control robot movements via Bluetooth from a mobile app.  
-   - Code: `Arduino/Bluetooth_Controlled_Robot/Code/bluetooth_robot.ino`
-
-3. **Sensor Integration**  
-   - **I2C Sensor Example**: Reading temperature and motion sensors via I2C  
-   - **UART Sensor Example**: Communicating with serial sensors  
-   - Code: `Arduino/Sensor_Integration/`
+This repository contains multiple **Arduino and Embedded Systems** projects implemented using various sensors, communication protocols, and actuators. Each project folder includes the **code, circuit diagrams, and documentation**.
 
 ---
 
-### **Embedded C Projects**
-1. **LED Blink**  
-   - Platform: ATmega328P / STM32 (example)  
-   - Description: Basic GPIO control using Embedded C  
-   - Code: `Embedded_C/Microcontroller_Examples/LED_Blink/`
+## 📂 Project List
 
-2. **UART Communication**  
-   - Description: Sending & receiving data over UART protocol using Embedded C  
-   - Code: `Embedded_C/Microcontroller_Examples/UART_Communication/`
+### 1️⃣ [Arduino Bluetooth Communication using HC-05](./Arduino%20Bluetooth%20Communication%20using%20HC-05)  
+- Uses **HC-05 Bluetooth Module** to establish wireless communication with Arduino.  
+- Control devices or send/receive data via a smartphone or PC.  
 
 ---
 
-## **📌 Key Skills Demonstrated**
-- Embedded C programming & compilation  
-- Arduino IDE programming  
-- Sensor integration: IR, I2C, UART  
-- Motor control & robotics using L298N driver  
-- Bluetooth communication using HC-05  
-- Basic line follower and obstacle avoidance robot design  
+### 2️⃣ [Arduino Temperature & Humidity Monitor with LCD & Buzzer](./Arduino%20Temperature%20%26%20Humidity%20Monitor%20with%20LCD%20%26%20Buzzer)  
+- Measures **temperature & humidity** using a **DHT22 sensor**.  
+- Displays values on a **16x2 I2C LCD display**.  
+- **Buzzer alert** if temperature goes below 20°C or above 40°C.  
 
 ---
 
-## **📌 How to Run**
-1. Install **Arduino IDE**  
-2. Open the `.ino` file for the project  
-3. Connect hardware according to the schematic  
-4. Upload the code and test the project  
+### 3️⃣ [I2C Protocol Implementation using Arduino UNO and 16x2 LCD](./I2C%20Protocol%20Implementation%20using%20Arduino%20UNO%20and%2016x2%20LCD)  
+- Demonstrates **I2C communication protocol**.  
+- Arduino communicates with an **I2C-based 16x2 LCD**.  
+- Displays sensor values and messages efficiently using only 2 wires (SDA & SCL).  
 
 ---
 
-**Author:** Chandrakiran G   
-**Email:** gchandrakiran97@gmail.com
+### 4️⃣ [Robot using Arduino Uno and L298N Motor Driver](./Robot%20using%20Arduino%20Uno%20and%20L298N%20Motor%20Driver)  
+- **4-wheel robot** built using **Arduino UNO** and **L298N Motor Driver**.  
+- Controlled using **IR sensors** for **line-following functionality**.  
+- Can be extended with **Bluetooth (HC-05)** for wireless control.  
+
+---
+
+## 🛠️ Tools & Technologies
+- **Arduino IDE** / Wokwi Online Simulator  
+- **Embedded C / Arduino C**  
+- **Communication Protocols:** I2C, UART, Bluetooth (HC-05)  
+- **Actuators & Sensors:** Motors, IR Sensors, DHT22, LCD Display, Buzzer  
+
+---
+
+## 🚀 How to Run
+1. Open the Arduino code (`.ino`) in **Arduino IDE**.  
+2. Select the correct **board (Arduino UNO)** and **port**.  
+3. Upload the code to your Arduino board.  
+4. Connect hardware as per the circuit diagrams in each project folder.  
+
+---
+
+## 📌 Future Enhancements
+- Add **IoT integration (ESP8266/ESP32 + MQTT)**.  
+- Mobile app-based control using **MIT App Inventor**.  
+- Data logging using **SD Card Module**.  
+
+---
+
+## 👨‍💻 Author
+Chandrakiran G 
+
+---
