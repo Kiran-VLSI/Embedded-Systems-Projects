@@ -47,13 +47,6 @@ It demonstrates hands-on implementation of **I2C & UART communication, motor con
 
 ---
 
-## **📁 Future Projects / Upgrades**
-- Implement obstacle avoidance with ultrasonic sensors  
-- Integrate OLED display with sensor data  
-- Build an IoT-enabled robot with WiFi module (ESP8266/ESP32)  
-
----
-
 ## **📌 How to Run**
 1. Install **Arduino IDE**  
 2. Open the `.ino` file for the project  
