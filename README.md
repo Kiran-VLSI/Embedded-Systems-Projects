@@ -29,7 +29,15 @@ This repository contains multiple **Arduino and Embedded Systems** projects impl
 ### 4️⃣ [Robot using Arduino Uno and L298N Motor Driver](./Robot%20using%20Arduino%20Uno%20and%20L298N%20Motor%20Driver)  
 - **4-wheel robot** built using **Arduino UNO** and **L298N Motor Driver**.  
 - Controlled using **IR sensors** for **line-following functionality**.  
-- Can be extended with **Bluetooth (HC-05)** for wireless control.  
+- Can be extended with **Bluetooth (HC-05)** for wireless control.
+
+---
+
+### 5️⃣ [UART Communication Between Two Arduinos](./UART%20Communication%20Between%20Two%20Arduinos)  
+- Demonstrates **UART communication** using **TX/RX pins**.  
+- **Arduino 1 (Transmitter):** Sends numbers/strings continuously.  
+- **Arduino 2 (Receiver):** Receives and displays data on the **Serial Monitor** (or LCD).  
+- Foundation for advanced projects like **robot control over UART**.  
 
 ---
 
