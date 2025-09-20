@@ -114,7 +114,3 @@ void loop() {
 
 ---
 
-
-
-Would you like me to now **make the second README.md for the Robot project (UART + L298N)** in the **same professional style** so both projects look consistent?
-```
